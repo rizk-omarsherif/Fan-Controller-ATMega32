@@ -4,12 +4,12 @@
 
 ## Features:
 
+* Layered Architecture: The project is structured based on a layered architecture model for modularity and scalability.
 * Temperature Sensing: Continuous monitoring of temperature using an LM35 temperature sensor.
 * LCD Display: Displays the temperature value and fan state for user visibility.
 * Fan Control Logic: Adjusts fan speed based on temperature thresholds: OFF below 30°C, 25% speed at 30-59°C, 50% speed at 60-89°C, 75% speed at 90-119°C, and 100% speed at 120°C or higher.
 * DC Motor Control: Speed of the fan is controlled using PWM signal generated from Timer0.
 * User Interaction: External push buttons enable user interaction to start, stop, resume, and reset the fan controller.
-* Layered Architecture: The project is structured based on a layered architecture model for modularity and scalability.
 
 ## Hardware Components:
 
